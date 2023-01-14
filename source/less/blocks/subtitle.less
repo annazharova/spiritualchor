@@ -1,0 +1,46 @@
+.subtitle {
+  color: @color-text;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 0;
+
+  // @media (min-width: @tablet-width) {
+  //   font-size: 43px;
+  //   line-height: 50px;
+  // }
+
+  // @media (min-width: @desktop-width) {
+  //   font-size: 53px;
+  //   line-height: 57px;
+  // }
+}
+
+.contacts .subtitle {
+  @media (min-width: @tablet-width) {
+    background-image: url("../img/flag.svg");
+    background-repeat: no-repeat;
+    background-position: right 54px top 18px;
+    padding-bottom: 20px;
+    padding-top: 41px;
+  }
+
+  @media (min-width: @desktop-width) {
+    background-position: left 0 top 67px;
+    padding-bottom: 30px;
+    padding-top: 85px;
+    padding-left: 90px;
+    margin-left: 4px;
+  }
+}
+
+.reviews .subtitle {
+  @media (min-width: @tablet-width) {
+    padding-top: 10px;
+  }
+
+  @media (min-width: @desktop-width) {
+    padding-top: 0;
+    margin-top: 40px;
+  }
+}
